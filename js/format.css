@@ -1,0 +1,13 @@
+.colorButton{
+    width: 30px;
+    height: 30px;
+}
+.colorRed{
+    background-color: red;
+}
+.colorGreen{
+    background-color: green;
+}
+.colorBlue{
+    background-color: blue;
+}

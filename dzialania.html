@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Działania</title>
+    <script src="dzialania.js" defer></script>
+</head>
+<body>
+    <h1>Proste działania</h1>
+    <label>
+        Podaj pierwszą liczbę: 
+        <input type="number" id="a">
+    </label>
+    <br>
+    <label>
+        Podaj drugą liczbę: 
+        <input type="number" id="b">
+    </label>
+    <br>
+    <button onclick="dzialanie('+');">DODAWANIE</button>
+    <button onclick="dzialanie('-');">ODEJMOWANIE</button>
+    <button onclick="dzialanie('*');">MNOŻENIE</button>
+    <button onclick="dzialanie('/');">DZIELENIE</button>
+    <br>
+    <div id="wynik"></div>
+</body>
+</html>
