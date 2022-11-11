@@ -1,3 +1,0 @@
-function sprawdzHaslo(){
-    alert("dziala");
-}
