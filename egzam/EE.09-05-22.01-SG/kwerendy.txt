@@ -1,0 +1,8 @@
+Zapytanie 1 : select haslo from uzytkownicy where login='Justyna';
+
+Zapytanie 2: select count(*) from dane;
+
+Zapytanie 3 : select login,rok_urodz,przyjaciol,hobby,zdjecie from uzytkownicy inner join dane on dane.id=uzytkownicy.id where login='Justyna';
+
+Zapytanie 4 : alter table dane
+add column stanowisko varchar(255);
